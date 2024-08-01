@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus Extension Options</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://img.icons8.com/color/96/000000/meditation-guru.png"
+        alt="Meditation icon"
+        class="icon"
+      />
+      <h1>Focus Extension Options</h1>
+      <form id="optionsForm">
+        <div class="form-group">
+          <label for="blockedUrls">Blocked URLs (one per line):</label>
+          <textarea id="blockedUrls" rows="5"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="customMessage">Custom Message (optional):</label>
+          <textarea id="customMessage" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="popupInterval">Popup Interval (minutes):</label>
+          <input type="number" id="popupInterval" min="1" value="120" />
+        </div>
+        <div class="form-group">
+          <label for="meditationTime">Meditation Time (seconds):</label>
+          <input type="number" id="meditationTime" min="1" value="60" />
+        </div>
+        <button type="submit">Save Options</button>
+      </form>
+      <div id="status"></div>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>

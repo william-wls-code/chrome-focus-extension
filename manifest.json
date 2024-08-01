@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Extension",
+  "version": "1.0",
+  "description": "Helps reduce internet addiction by showing a countdown or custom message for specified URLs.",
+  "permissions": ["storage", "webNavigation", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "48": "icon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/background.jpg",
+        "images/meditation-guru.png",
+        "images/lotus.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
