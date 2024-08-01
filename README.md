@@ -1,7 +1,5 @@
 # Focus Extension
 
-![Focus Extension Logo](images/lotus.png)
-
 ## Description
 
 Focus Extension is a Chrome browser extension designed to help users reduce internet addiction and promote mindfulness. It allows users to set up a list of potentially distracting websites and introduces a meditation pause before accessing these sites.
@@ -32,19 +30,6 @@ Focus Extension is a Chrome browser extension designed to help users reduce inte
 3. Click "Save Options" to apply your settings.
 4. When you attempt to access a monitored URL, the extension will display the meditation page.
 
-## Screenshots
-
-![Options Page](images/options_screenshot.png)
-_Options Page_
-
-![Meditation Page](images/meditation_screenshot.png)
-_Meditation Page_
-
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## Acknowledgements
-
-- [Icons8](https://icons8.com) for providing the icons used in this extension
-- [Unsplash](https://unsplash.com) for the background image
